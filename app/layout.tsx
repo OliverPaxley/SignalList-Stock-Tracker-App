@@ -10,11 +10,11 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
+}); 
 
 export const metadata: Metadata = {
   title: "SignalList",
-  description: "Track Real Life Stock Prices",
+  description: "Track Real Life Stock Prices, get personalized alerts and explore detailed company insights.",
 };
 
 export default function RootLayout({
